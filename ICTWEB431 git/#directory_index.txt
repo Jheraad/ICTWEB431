@@ -1,0 +1,11 @@
+#directory_index
+public/
+|_ index.html
+|_ contact.html
+|_ products.html
+|_ css/
+  |_ style.css
+|_ media/
+  |_ logo.png
+  |_ game1.jpg
+  |_ game2.jpg
