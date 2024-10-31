@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massive Games</title>
+    <link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #282c34;
+        color: rgb(166, 42, 182);
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .product {
+        max-width: 400px;
+        margin: 20px;
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .product img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #282c34;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    /* Responsive Design */
+    @media only screen and (max-width: 768px) {
+        .product {
+            max-width: 90%;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        header h1 {
+            font-size: 1.5em;
+        }
+    
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .product {
+            margin: 10px;
+        }
+    }
+
+</style>    
+</head>
+<body>
+    <header>
+        <h1>Massive Games</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Welcome to Massive Games</h2>
+            <p>Your journey into the world of indie gaming starts here!</p>
+            <img src="media/LOGO.jpg" alt="The logo of Massive game, Which contains a game controller and text" >
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Massive Games. All rights reserved.</p>
+    </footer>
+</body>
+</html>
